@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [orangehrm_Workflow]">
+  <test thread-count="5" name=" To verify user can fetch Employee details successfully(failed)">
+    <classes>
+      <class name="orangehrm.testsuites.PIM_Emp_TC04">
+        <methods>
+          <include name="Emp_PIM"/>
+        </methods>
+      </class> <!-- orangehrm.testsuites.PIM_Emp_TC04 -->
+    </classes>
+  </test> <!--  To verify user can fetch Employee details successfully(failed) -->
+</suite> <!-- Failed suite [orangehrm_Workflow] -->

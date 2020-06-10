@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "orangehrm_Workflow">
+
+   <test name = " To verify Admin can login successfully ">
+   
+      <classes>
+      <class name = "orangehrm.testsuites.admin_login_TC01" />
+      </classes>
+      
+   </test> 
+    <test name = "To verify Sys admin can login successfully"> 
+      <classes>
+         <class name = "orangehrm.testsuites.sys_admin_TC02" />
+      </classes>
+      
+   </test>
+   <test name = " To verify ESS User can login successfully"> 
+      <classes>
+         <class name = "orangehrm.testsuites.ESS_User_TC03" />
+      </classes>
+      
+   </test>
+   <test name = " To verify BRODY ALAN user details can fetch from Employee lists successfully">
+      <classes>
+         <class name = "orangehrm.testsuites.PIM_Emp_TC04" />
+      </classes>  
+   </test>
+   
+   <test name = " To Login to the First Level Supervisor">
+   
+      <classes>
+         <class name = "orangehrm.testsuites.FirstLevelSupervisor_TC5" />
+      </classes>
+    
+   </test>
+ 
+</suite>  

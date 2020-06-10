@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="orangehrm_Workflow" duration-ms="190444" started-at="2020-06-10T16:53:45 IST" finished-at="2020-06-10T16:56:56 IST">
+    <groups>
+    </groups>
+    <test name=" To verify Admin can login successfully " duration-ms="28279" started-at="2020-06-10T16:53:45 IST" finished-at="2020-06-10T16:54:13 IST">
+      <class name="orangehrm.testsuites.admin_login_TC01">
+        <test-method status="PASS" signature="login_01()[pri:0, instance:orangehrm.testsuites.admin_login_TC01@578486a3]" name="login_01" duration-ms="28189" started-at="2020-06-10T16:53:45 IST" finished-at="2020-06-10T16:54:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_01 -->
+      </class> <!-- orangehrm.testsuites.admin_login_TC01 -->
+    </test> <!--  To verify Admin can login successfully  -->
+    <test name="To verify Sys admin can login successfully" duration-ms="38484" started-at="2020-06-10T16:54:13 IST" finished-at="2020-06-10T16:54:52 IST">
+      <class name="orangehrm.testsuites.sys_admin_TC02">
+        <test-method status="PASS" signature="sys_admin_check()[pri:0, instance:orangehrm.testsuites.sys_admin_TC02@694e1548]" name="sys_admin_check" duration-ms="38467" started-at="2020-06-10T16:54:13 IST" finished-at="2020-06-10T16:54:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sys_admin_check -->
+      </class> <!-- orangehrm.testsuites.sys_admin_TC02 -->
+    </test> <!-- To verify Sys admin can login successfully -->
+    <test name=" To verify ESS User can login successfully" duration-ms="38118" started-at="2020-06-10T16:54:52 IST" finished-at="2020-06-10T16:55:30 IST">
+      <class name="orangehrm.testsuites.ESS_User_TC03">
+        <test-method status="PASS" signature="ESS_User_Login()[pri:0, instance:orangehrm.testsuites.ESS_User_TC03@51cdd8a]" name="ESS_User_Login" duration-ms="38098" started-at="2020-06-10T16:54:52 IST" finished-at="2020-06-10T16:55:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ESS_User_Login -->
+      </class> <!-- orangehrm.testsuites.ESS_User_TC03 -->
+    </test> <!--  To verify ESS User can login successfully -->
+    <test name=" To verify BRODY ALAN user details can fetch from Employee lists successfully" duration-ms="56814" started-at="2020-06-10T16:55:30 IST" finished-at="2020-06-10T16:56:27 IST">
+      <class name="orangehrm.testsuites.PIM_Emp_TC04">
+        <test-method status="PASS" signature="Emp_PIM()[pri:0, instance:orangehrm.testsuites.PIM_Emp_TC04@6895a785]" name="Emp_PIM" duration-ms="56800" started-at="2020-06-10T16:55:30 IST" finished-at="2020-06-10T16:56:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Emp_PIM -->
+      </class> <!-- orangehrm.testsuites.PIM_Emp_TC04 -->
+    </test> <!--  To verify BRODY ALAN user details can fetch from Employee lists successfully -->
+    <test name=" To Login to the First Level Supervisor" duration-ms="28526" started-at="2020-06-10T16:56:27 IST" finished-at="2020-06-10T16:56:56 IST">
+      <class name="orangehrm.testsuites.FirstLevelSupervisor_TC5">
+        <test-method status="PASS" signature="FirstLevelSupervisor()[pri:0, instance:orangehrm.testsuites.FirstLevelSupervisor_TC5@1d29cf23]" name="FirstLevelSupervisor" duration-ms="28519" started-at="2020-06-10T16:56:27 IST" finished-at="2020-06-10T16:56:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstLevelSupervisor -->
+      </class> <!-- orangehrm.testsuites.FirstLevelSupervisor_TC5 -->
+    </test> <!--  To Login to the First Level Supervisor -->
+  </suite> <!-- orangehrm_Workflow -->
+</testng-results>
