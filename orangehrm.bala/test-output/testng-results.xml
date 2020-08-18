@@ -1,49 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="orangehrm_Workflow" duration-ms="190444" started-at="2020-06-10T16:53:45 IST" finished-at="2020-06-10T16:56:56 IST">
+  <suite name="Default suite" duration-ms="2877" started-at="2020-07-28T20:08:39 IST" finished-at="2020-07-28T20:08:42 IST">
     <groups>
     </groups>
-    <test name=" To verify Admin can login successfully " duration-ms="28279" started-at="2020-06-10T16:53:45 IST" finished-at="2020-06-10T16:54:13 IST">
-      <class name="orangehrm.testsuites.admin_login_TC01">
-        <test-method status="PASS" signature="login_01()[pri:0, instance:orangehrm.testsuites.admin_login_TC01@578486a3]" name="login_01" duration-ms="28189" started-at="2020-06-10T16:53:45 IST" finished-at="2020-06-10T16:54:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_01 -->
-      </class> <!-- orangehrm.testsuites.admin_login_TC01 -->
-    </test> <!--  To verify Admin can login successfully  -->
-    <test name="To verify Sys admin can login successfully" duration-ms="38484" started-at="2020-06-10T16:54:13 IST" finished-at="2020-06-10T16:54:52 IST">
-      <class name="orangehrm.testsuites.sys_admin_TC02">
-        <test-method status="PASS" signature="sys_admin_check()[pri:0, instance:orangehrm.testsuites.sys_admin_TC02@694e1548]" name="sys_admin_check" duration-ms="38467" started-at="2020-06-10T16:54:13 IST" finished-at="2020-06-10T16:54:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sys_admin_check -->
-      </class> <!-- orangehrm.testsuites.sys_admin_TC02 -->
-    </test> <!-- To verify Sys admin can login successfully -->
-    <test name=" To verify ESS User can login successfully" duration-ms="38118" started-at="2020-06-10T16:54:52 IST" finished-at="2020-06-10T16:55:30 IST">
-      <class name="orangehrm.testsuites.ESS_User_TC03">
-        <test-method status="PASS" signature="ESS_User_Login()[pri:0, instance:orangehrm.testsuites.ESS_User_TC03@51cdd8a]" name="ESS_User_Login" duration-ms="38098" started-at="2020-06-10T16:54:52 IST" finished-at="2020-06-10T16:55:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ESS_User_Login -->
-      </class> <!-- orangehrm.testsuites.ESS_User_TC03 -->
-    </test> <!--  To verify ESS User can login successfully -->
-    <test name=" To verify BRODY ALAN user details can fetch from Employee lists successfully" duration-ms="56814" started-at="2020-06-10T16:55:30 IST" finished-at="2020-06-10T16:56:27 IST">
+    <test name="Default test" duration-ms="2877" started-at="2020-07-28T20:08:39 IST" finished-at="2020-07-28T20:08:42 IST">
       <class name="orangehrm.testsuites.PIM_Emp_TC04">
-        <test-method status="PASS" signature="Emp_PIM()[pri:0, instance:orangehrm.testsuites.PIM_Emp_TC04@6895a785]" name="Emp_PIM" duration-ms="56800" started-at="2020-06-10T16:55:30 IST" finished-at="2020-06-10T16:56:27 IST">
+        <test-method status="FAIL" signature="Emp_PIM()[pri:0, instance:orangehrm.testsuites.PIM_Emp_TC04@578486a3]" name="Emp_PIM" duration-ms="2796" started-at="2020-07-28T20:08:39 IST" finished-at="2020-07-28T20:08:42 IST">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 81
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSPLLLP-044', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x010B5E93+2449043]
+Ordinal0 [0x00FE8281+1606273]
+Ordinal0 [0x00EDF889+522377]
+Ordinal0 [0x00E705F3+67059]
+Ordinal0 [0x00E6CD92+52626]
+Ordinal0 [0x00E8C127+180519]
+Ordinal0 [0x00E8BF2D+180013]
+Ordinal0 [0x00E89E5B+171611]
+Ordinal0 [0x00E71DD8+73176]
+Ordinal0 [0x00E72E50+77392]
+Ordinal0 [0x00E72DE9+77289]
+Ordinal0 [0x00FFD7F7+1693687]
+GetHandleVerifier [0x01154576+522742]
+GetHandleVerifier [0x011542B4+522036]
+GetHandleVerifier [0x01169587+608775]
+GetHandleVerifier [0x01154DE6+524902]
+Ordinal0 [0x00FF5BDC+1661916]
+Ordinal0 [0x00FFF15B+1700187]
+Ordinal0 [0x00FFF2C3+1700547]
+Ordinal0 [0x01015135+1790261]
+BaseThreadInitThunk [0x75526359+25]
+RtlGetAppContainerNamedObjectPath [0x77B27C24+228]
+RtlGetAppContainerNamedObjectPath [0x77B27BF4+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 81
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SSPLLLP-044', ip: '192.168.43.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x010B5E93+2449043]
+Ordinal0 [0x00FE8281+1606273]
+Ordinal0 [0x00EDF889+522377]
+Ordinal0 [0x00E705F3+67059]
+Ordinal0 [0x00E6CD92+52626]
+Ordinal0 [0x00E8C127+180519]
+Ordinal0 [0x00E8BF2D+180013]
+Ordinal0 [0x00E89E5B+171611]
+Ordinal0 [0x00E71DD8+73176]
+Ordinal0 [0x00E72E50+77392]
+Ordinal0 [0x00E72DE9+77289]
+Ordinal0 [0x00FFD7F7+1693687]
+GetHandleVerifier [0x01154576+522742]
+GetHandleVerifier [0x011542B4+522036]
+GetHandleVerifier [0x01169587+608775]
+GetHandleVerifier [0x01154DE6+524902]
+Ordinal0 [0x00FF5BDC+1661916]
+Ordinal0 [0x00FFF15B+1700187]
+Ordinal0 [0x00FFF2C3+1700547]
+Ordinal0 [0x01015135+1790261]
+BaseThreadInitThunk [0x75526359+25]
+RtlGetAppContainerNamedObjectPath [0x77B27C24+228]
+RtlGetAppContainerNamedObjectPath [0x77B27BF4+180]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at orangehrm.base.reusablity.openbrowser(reusablity.java:27)
+at orangehrm.testsuites.PIM_Emp_TC04.Emp_PIM(PIM_Emp_TC04.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Emp_PIM -->
       </class> <!-- orangehrm.testsuites.PIM_Emp_TC04 -->
-    </test> <!--  To verify BRODY ALAN user details can fetch from Employee lists successfully -->
-    <test name=" To Login to the First Level Supervisor" duration-ms="28526" started-at="2020-06-10T16:56:27 IST" finished-at="2020-06-10T16:56:56 IST">
-      <class name="orangehrm.testsuites.FirstLevelSupervisor_TC5">
-        <test-method status="PASS" signature="FirstLevelSupervisor()[pri:0, instance:orangehrm.testsuites.FirstLevelSupervisor_TC5@1d29cf23]" name="FirstLevelSupervisor" duration-ms="28519" started-at="2020-06-10T16:56:27 IST" finished-at="2020-06-10T16:56:56 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstLevelSupervisor -->
-      </class> <!-- orangehrm.testsuites.FirstLevelSupervisor_TC5 -->
-    </test> <!--  To Login to the First Level Supervisor -->
-  </suite> <!-- orangehrm_Workflow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

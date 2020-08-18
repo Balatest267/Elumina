@@ -8,24 +8,96 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">orangehrm_Workflow</th></tr>
-<tr><td><a href="#t0"> To verify Admin can login successfully </a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">28,279</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">To verify Sys admin can login successfully</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">38,484</td><td></td><td></td></tr>
-<tr><td><a href="#t2"> To verify ESS User can login successfully</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">38,118</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t3"> To verify BRODY ALAN user details can fetch from Employee lists successfully</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">56,814</td><td></td><td></td></tr>
-<tr><td><a href="#t4"> To Login to the First Level Supervisor</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">28,526</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">190,221</th><th colspan="2"></th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">2,877</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">orangehrm_Workflow</th></tr></tbody><tbody id="t0"><tr><th colspan="4"> To verify Admin can login successfully  &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">orangehrm.testsuites.admin_login_TC01</td><td><a href="#m0">login_01</a></td><td rowspan="1">1591788225661</td><td rowspan="1">28189</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">To verify Sys admin can login successfully &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">orangehrm.testsuites.sys_admin_TC02</td><td><a href="#m1">sys_admin_check</a></td><td rowspan="1">1591788253991</td><td rowspan="1">38467</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4"> To verify ESS User can login successfully &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">orangehrm.testsuites.ESS_User_TC03</td><td><a href="#m2">ESS_User_Login</a></td><td rowspan="1">1591788292540</td><td rowspan="1">38098</td></tr></tbody>
-<tbody id="t3"><tr><th colspan="4"> To verify BRODY ALAN user details can fetch from Employee lists successfully &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">orangehrm.testsuites.PIM_Emp_TC04</td><td><a href="#m3">Emp_PIM</a></td><td rowspan="1">1591788330690</td><td rowspan="1">56800</td></tr></tbody>
-<tbody id="t4"><tr><th colspan="4"> To Login to the First Level Supervisor &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">orangehrm.testsuites.FirstLevelSupervisor_TC5</td><td><a href="#m4">FirstLevelSupervisor</a></td><td rowspan="1">1591788387533</td><td rowspan="1">28519</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">orangehrm.testsuites.PIM_Emp_TC04</td><td><a href="#m0">Emp_PIM</a></td><td rowspan="1">1595947119223</td><td rowspan="1">2796</td></tr></tbody>
 </table>
-<h2> To verify Admin can login successfully </h2><h3 id="m0">orangehrm.testsuites.admin_login_TC01#login_01</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>To verify Sys admin can login successfully</h2><h3 id="m1">orangehrm.testsuites.sys_admin_TC02#sys_admin_check</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2> To verify ESS User can login successfully</h2><h3 id="m2">orangehrm.testsuites.ESS_User_TC03#ESS_User_Login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2> To verify BRODY ALAN user details can fetch from Employee lists successfully</h2><h3 id="m3">orangehrm.testsuites.PIM_Emp_TC04#Emp_PIM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2> To Login to the First Level Supervisor</h2><h3 id="m4">orangehrm.testsuites.FirstLevelSupervisor_TC5#FirstLevelSupervisor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">orangehrm.testsuites.PIM_Emp_TC04#Emp_PIM</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 81
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SSPLLLP-044&apos;, ip: &apos;192.168.43.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x010B5E93+2449043]
+	Ordinal0 [0x00FE8281+1606273]
+	Ordinal0 [0x00EDF889+522377]
+	Ordinal0 [0x00E705F3+67059]
+	Ordinal0 [0x00E6CD92+52626]
+	Ordinal0 [0x00E8C127+180519]
+	Ordinal0 [0x00E8BF2D+180013]
+	Ordinal0 [0x00E89E5B+171611]
+	Ordinal0 [0x00E71DD8+73176]
+	Ordinal0 [0x00E72E50+77392]
+	Ordinal0 [0x00E72DE9+77289]
+	Ordinal0 [0x00FFD7F7+1693687]
+	GetHandleVerifier [0x01154576+522742]
+	GetHandleVerifier [0x011542B4+522036]
+	GetHandleVerifier [0x01169587+608775]
+	GetHandleVerifier [0x01154DE6+524902]
+	Ordinal0 [0x00FF5BDC+1661916]
+	Ordinal0 [0x00FFF15B+1700187]
+	Ordinal0 [0x00FFF2C3+1700547]
+	Ordinal0 [0x01015135+1790261]
+	BaseThreadInitThunk [0x75526359+25]
+	RtlGetAppContainerNamedObjectPath [0x77B27C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77B27BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at orangehrm.base.reusablity.openbrowser(reusablity.java:27)
+	at orangehrm.testsuites.PIM_Emp_TC04.Emp_PIM(PIM_Emp_TC04.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

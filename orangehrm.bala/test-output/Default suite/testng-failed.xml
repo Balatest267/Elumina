@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="orangehrm.testsuites.ESS_User_TC03">
+      <class name="orangehrm.testsuites.PIM_Emp_TC04">
         <methods>
-          <include name="ESS_User_Login"/>
+          <include name="Emp_PIM"/>
         </methods>
-      </class> <!-- orangehrm.testsuites.ESS_User_TC03 -->
+      </class> <!-- orangehrm.testsuites.PIM_Emp_TC04 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

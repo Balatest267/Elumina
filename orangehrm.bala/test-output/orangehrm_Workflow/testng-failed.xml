@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [orangehrm_Workflow]">
-  <test thread-count="5" name=" To verify user can fetch Employee details successfully(failed)">
+  <test thread-count="5" name=" To verify Admin can login successfully (failed)">
+    <classes>
+      <class name="orangehrm.testsuites.admin_login_TC01">
+        <methods>
+          <include name="login_01"/>
+        </methods>
+      </class> <!-- orangehrm.testsuites.admin_login_TC01 -->
+    </classes>
+  </test> <!--  To verify Admin can login successfully (failed) -->
+  <test thread-count="5" name="To verify Sys admin can login successfully(failed)">
+    <classes>
+      <class name="orangehrm.testsuites.sys_admin_TC02">
+        <methods>
+          <include name="sys_admin_check"/>
+        </methods>
+      </class> <!-- orangehrm.testsuites.sys_admin_TC02 -->
+    </classes>
+  </test> <!-- To verify Sys admin can login successfully(failed) -->
+  <test thread-count="5" name=" To verify ESS User can login successfully(failed)">
+    <classes>
+      <class name="orangehrm.testsuites.ESS_User_TC03">
+        <methods>
+          <include name="ESS_User_Login"/>
+        </methods>
+      </class> <!-- orangehrm.testsuites.ESS_User_TC03 -->
+    </classes>
+  </test> <!--  To verify ESS User can login successfully(failed) -->
+  <test thread-count="5" name=" To verify BRODY ALAN user details can fetch from Employee lists successfully(failed)">
     <classes>
       <class name="orangehrm.testsuites.PIM_Emp_TC04">
         <methods>
@@ -9,5 +36,14 @@
         </methods>
       </class> <!-- orangehrm.testsuites.PIM_Emp_TC04 -->
     </classes>
-  </test> <!--  To verify user can fetch Employee details successfully(failed) -->
+  </test> <!--  To verify BRODY ALAN user details can fetch from Employee lists successfully(failed) -->
+  <test thread-count="5" name=" To Login to the First Level Supervisor(failed)">
+    <classes>
+      <class name="orangehrm.testsuites.FirstLevelSupervisor_TC5">
+        <methods>
+          <include name="FirstLevelSupervisor"/>
+        </methods>
+      </class> <!-- orangehrm.testsuites.FirstLevelSupervisor_TC5 -->
+    </classes>
+  </test> <!--  To Login to the First Level Supervisor(failed) -->
 </suite> <!-- Failed suite [orangehrm_Workflow] -->
